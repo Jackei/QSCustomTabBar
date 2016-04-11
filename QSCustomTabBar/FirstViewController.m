@@ -16,6 +16,13 @@
 
 @implementation FirstViewController
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor orangeColor];
+}
+
 - (IBAction)change:(id)sender
 {
     UITabBarController *tab = (UITabBarController *)[UIApplication sharedApplication].keyWindow.rootViewController;
